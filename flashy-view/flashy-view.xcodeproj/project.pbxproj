@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61A0C14A1D26D7260070C429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A0C1491D26D7260070C429 /* main.m */; };
+		61A0C14D1D26D7260070C429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A0C14C1D26D7260070C429 /* AppDelegate.m */; };
+		61A0C1501D26D7260070C429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A0C14F1D26D7260070C429 /* ViewController.m */; };
+		61A0C1531D26D7260070C429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A0C1511D26D7260070C429 /* Main.storyboard */; };
+		61A0C1551D26D7260070C429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A0C1541D26D7260070C429 /* Assets.xcassets */; };
+		61A0C1581D26D7260070C429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A0C1561D26D7260070C429 /* LaunchScreen.storyboard */; };
+		61A0C1611D26E06B0070C429 /* SFKCustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A0C1601D26E06B0070C429 /* SFKCustomTableViewController.m */; };
+		61A0C1631D26E6620070C429 /* presidents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61A0C1621D26E6620070C429 /* presidents.jpg */; };
+		61A0C1651D26EB510070C429 /* george.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A0C1641D26EB510070C429 /* george.png */; };
+		FD340D6E5F3156853252CE10 /* libPods-flashy-view.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2A67E64187EE1C3A457F4D /* libPods-flashy-view.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D2A67E64187EE1C3A457F4D /* libPods-flashy-view.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flashy-view.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A0C1451D26D7260070C429 /* flashy-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flashy-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A0C1491D26D7260070C429 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61A0C14B1D26D7260070C429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61A0C14C1D26D7260070C429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61A0C14E1D26D7260070C429 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61A0C14F1D26D7260070C429 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61A0C1521D26D7260070C429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A0C1541D26D7260070C429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A0C1571D26D7260070C429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61A0C1591D26D7260070C429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A0C15F1D26E06B0070C429 /* SFKCustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFKCustomTableViewController.h; sourceTree = "<group>"; };
+		61A0C1601D26E06B0070C429 /* SFKCustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFKCustomTableViewController.m; sourceTree = "<group>"; };
+		61A0C1621D26E6620070C429 /* presidents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = presidents.jpg; path = ../../../../../Desktop/presidents.jpg; sourceTree = "<group>"; };
+		61A0C1641D26EB510070C429 /* george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = george.png; path = ../../../../../Desktop/george.png; sourceTree = "<group>"; };
+		741412640A0F5DBD46F103F4 /* Pods-flashy-view.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashy-view.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flashy-view/Pods-flashy-view.debug.xcconfig"; sourceTree = "<group>"; };
+		A16FA7F5AE296C230DE4F4BE /* Pods-flashy-view.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashy-view.release.xcconfig"; path = "Pods/Target Support Files/Pods-flashy-view/Pods-flashy-view.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A0C1421D26D7260070C429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD340D6E5F3156853252CE10 /* libPods-flashy-view.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A0C13C1D26D7260070C429 = {
+			isa = PBXGroup;
+			children = (
+				61A0C1471D26D7260070C429 /* flashy-view */,
+				61A0C1461D26D7260070C429 /* Products */,
+				D9702A528BC6F5BD6A52D3CA /* Pods */,
+				85C877D0DEDDC8CFC336F2AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61A0C1461D26D7260070C429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A0C1451D26D7260070C429 /* flashy-view.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A0C1471D26D7260070C429 /* flashy-view */ = {
+			isa = PBXGroup;
+			children = (
+				61A0C14B1D26D7260070C429 /* AppDelegate.h */,
+				61A0C14C1D26D7260070C429 /* AppDelegate.m */,
+				61A0C1641D26EB510070C429 /* george.png */,
+				61A0C14E1D26D7260070C429 /* ViewController.h */,
+				61A0C14F1D26D7260070C429 /* ViewController.m */,
+				61A0C15F1D26E06B0070C429 /* SFKCustomTableViewController.h */,
+				61A0C1601D26E06B0070C429 /* SFKCustomTableViewController.m */,
+				61A0C1511D26D7260070C429 /* Main.storyboard */,
+				61A0C1541D26D7260070C429 /* Assets.xcassets */,
+				61A0C1561D26D7260070C429 /* LaunchScreen.storyboard */,
+				61A0C1591D26D7260070C429 /* Info.plist */,
+				61A0C1621D26E6620070C429 /* presidents.jpg */,
+				61A0C1481D26D7260070C429 /* Supporting Files */,
+			);
+			path = "flashy-view";
+			sourceTree = "<group>";
+		};
+		61A0C1481D26D7260070C429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A0C1491D26D7260070C429 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C877D0DEDDC8CFC336F2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A67E64187EE1C3A457F4D /* libPods-flashy-view.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9702A528BC6F5BD6A52D3CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741412640A0F5DBD46F103F4 /* Pods-flashy-view.debug.xcconfig */,
+				A16FA7F5AE296C230DE4F4BE /* Pods-flashy-view.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A0C1441D26D7260070C429 /* flashy-view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A0C15C1D26D7260070C429 /* Build configuration list for PBXNativeTarget "flashy-view" */;
+			buildPhases = (
+				61C63819100A56EFC9B9B7C7 /* [CP] Check Pods Manifest.lock */,
+				61A0C1411D26D7260070C429 /* Sources */,
+				61A0C1421D26D7260070C429 /* Frameworks */,
+				61A0C1431D26D7260070C429 /* Resources */,
+				E4BEA2C5AA5CB93ECDFE9C73 /* [CP] Embed Pods Frameworks */,
+				15DA1E053D85077BECF57FDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flashy-view";
+			productName = "flashy-view";
+			productReference = 61A0C1451D26D7260070C429 /* flashy-view.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A0C13D1D26D7260070C429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shea Furey-King";
+				TargetAttributes = {
+					61A0C1441D26D7260070C429 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 61A0C1401D26D7260070C429 /* Build configuration list for PBXProject "flashy-view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A0C13C1D26D7260070C429;
+			productRefGroup = 61A0C1461D26D7260070C429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A0C1441D26D7260070C429 /* flashy-view */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A0C1431D26D7260070C429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A0C1581D26D7260070C429 /* LaunchScreen.storyboard in Resources */,
+				61A0C1551D26D7260070C429 /* Assets.xcassets in Resources */,
+				61A0C1651D26EB510070C429 /* george.png in Resources */,
+				61A0C1631D26E6620070C429 /* presidents.jpg in Resources */,
+				61A0C1531D26D7260070C429 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15DA1E053D85077BECF57FDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flashy-view/Pods-flashy-view-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C63819100A56EFC9B9B7C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BEA2C5AA5CB93ECDFE9C73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flashy-view/Pods-flashy-view-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A0C1411D26D7260070C429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A0C1501D26D7260070C429 /* ViewController.m in Sources */,
+				61A0C14D1D26D7260070C429 /* AppDelegate.m in Sources */,
+				61A0C14A1D26D7260070C429 /* main.m in Sources */,
+				61A0C1611D26E06B0070C429 /* SFKCustomTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61A0C1511D26D7260070C429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A0C1521D26D7260070C429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61A0C1561D26D7260070C429 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A0C1571D26D7260070C429 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A0C15A1D26D7260070C429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61A0C15B1D26D7260070C429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A0C15D1D26D7260070C429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741412640A0F5DBD46F103F4 /* Pods-flashy-view.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "flashy-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shea-game.flashy-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61A0C15E1D26D7260070C429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16FA7F5AE296C230DE4F4BE /* Pods-flashy-view.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "flashy-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shea-game.flashy-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A0C1401D26D7260070C429 /* Build configuration list for PBXProject "flashy-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A0C15A1D26D7260070C429 /* Debug */,
+				61A0C15B1D26D7260070C429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A0C15C1D26D7260070C429 /* Build configuration list for PBXNativeTarget "flashy-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A0C15D1D26D7260070C429 /* Debug */,
+				61A0C15E1D26D7260070C429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A0C13D1D26D7260070C429 /* Project object */;
+}
